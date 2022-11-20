@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "d:\BSCS\Third Semester\cs261f22pid01\app.py", line 579, in sort
+    self.source_list = Sorting.RadixSortF(self.source_list,type_to_pass,indices[0])
+  File "d:\BSCS\Third Semester\cs261f22pid01\sorting.py", line 269, in RadixSortF
+    arr[index] = RadixSortDescending(arr[index])
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 307, in RadixSortDescending
+    Count_Sort_Radix_descending(A, radix)
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 293, in Count_Sort_Radix_descending
+    copy_sort[counters[idx // 10]+ 1] = arr[i]
+IndexError: list index out of range
+2022-10-31 23:30:00,289 - list index out of range
+Traceback (most recent call last):
+  File "d:\BSCS\Third Semester\cs261f22pid01\app.py", line 579, in sort
+    self.source_list = Sorting.RadixSortF(self.source_list,type_to_pass,indices[0])
+  File "d:\BSCS\Third Semester\cs261f22pid01\sorting.py", line 269, in RadixSortF
+    arr[index] = RadixSortDescending(arr[index])
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 307, in RadixSortDescending
+    Count_Sort_Radix_descending(A, radix)
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 293, in Count_Sort_Radix_descending
+    copy_sort[counters[idx]+ 1] = arr[i]
+IndexError: list index out of range
+2022-10-31 23:30:58,449 - list index out of range
+Traceback (most recent call last):
+  File "d:\BSCS\Third Semester\cs261f22pid01\app.py", line 579, in sort
+    self.source_list = Sorting.RadixSortF(self.source_list,type_to_pass,indices[0])
+  File "d:\BSCS\Third Semester\cs261f22pid01\sorting.py", line 269, in RadixSortF
+    arr[index] = RadixSortDescending(arr[index])
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 307, in RadixSortDescending
+    Count_Sort_Radix_descending(A, radix)
+  File "d:\BSCS\Third Semester\cs261f22pid01\DescendingAlgos.py", line 293, in Count_Sort_Radix_descending
+    copy_sort[(counters[idx]- 1) % d] = arr[i]
+IndexError: list index out of range
+2022-11-06 17:44:30,605 - list assignment index out of range
+Traceback (most recent call last):
+  File "d:\BSCS\Third Semester\DSA books\cs261f22pid01\app.py", line 579, in sort
+    self.source_list = Sorting.RadixSortF(self.source_list,type_to_pass,indices[0])
+  File "d:\BSCS\Third Semester\DSA books\cs261f22pid01\sorting.py", line 269, in RadixSortF
+    arr[index] = RadixSortDescending(arr[index])
+  File "d:\BSCS\Third Semester\DSA books\cs261f22pid01\DescendingAlgos.py", line 307, in RadixSortDescending
+    Count_Sort_Radix_descending(A, radix)
+  File "d:\BSCS\Third Semester\DSA books\cs261f22pid01\DescendingAlgos.py", line 293, in Count_Sort_Radix_descending
+    copy_sort[counters[idx % 10] + 1] = arr[i]
+IndexError: list assignment index out of range
